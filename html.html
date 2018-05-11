@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="grid.css" type="text/css" rel="stylesheet">
+		<link href="css.css" type="text/css" rel="stylesheet">
+		
+	</head>
+	<body>
+		<div id="stats">
+			<div id="score">
+				<p class="score" >SCORE</p>
+				<span id="nScore">0</span>
+			</div>
+			<div class="tasto">
+				<button class="button" style="vertical-align:middle" onclick="grid.mossPrec()"><span>Precedente </span></button> 
+				<a href="html.html"><button id="game" class="button" style="vertical-align:middle" onclick="grid.mossPrec()"><span>Restart </span></button></a> 
+			</div>
+		</div>
+		<div id="content">
+			<div id="tabella"></div>
+		</div id="content">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="Grid.js"></script>
+		<script src="cell.js"></script>
+		<script src="main.js"></script>
+		
+		
+	</body>
+</html>

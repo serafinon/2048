@@ -1,0 +1,53 @@
+.a2{background-color: #ddc49a;}
+.a4{background-color: #d2aa6d;}
+.a8{background-color: #f6a950;}
+.a16{background-color: #e29000;}
+.a32{background-color: #da6e00;}
+.a64{background-color: #ffb200;}
+.a128{background-color: #bf3922;}
+.a256{background-color: #8d3c4b;}
+.a512{background-color: #59191f;}
+.a1024{background-color: #47243c;}
+.a2048{background-color: #005e83;}
+.a4096{background-color: #61993b;}
+
+table {
+  border-collapse: collapse;
+  border-color: #af804f
+
+}
+td{
+		border: solid black 2px;
+		background-color: #e3d9c6;
+		width:70px;
+		height:70px;
+		text-align:center;
+		font-size:20pt;
+		}
+		
+#tabella{
+		border: solid #af804f 10px;
+		box-shadow: 1px 1px 0px rgb(61, 40, 19),
+								2px 2px 0px rgb(61, 40, 19),
+								3px 3px 0px rgb(61, 40, 19),
+								4px 4px 0px rgb(61, 40, 19),
+								5px 5px 0px rgb(61, 40, 19),
+								6px 6px 0px rgb(61, 40, 19),
+								7px 7px 0px rgb(61, 40, 19),
+								8px 8px 0px rgb(61, 40, 19),
+								9px 9px 0px rgb(61, 40, 19),
+								10px 10px 0px rgb(61, 40, 19),
+								11px 11px 0px rgb(61, 40, 19),
+								12px 12px 0px rgb(61, 40, 19),
+								13px 13px 0px rgb(61, 40, 19),
+								14px 14px 0px rgb(61, 40, 19),
+								15px 15px 0px rgb(61, 40, 19);
+}
+
+#content{
+					width: 280px;
+					margin: 0 auto;
+					/*position:absolute;
+					top:70px;
+					left:500px;*/
+}
